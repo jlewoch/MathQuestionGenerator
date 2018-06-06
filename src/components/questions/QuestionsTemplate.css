@@ -1,0 +1,66 @@
+.questionsContainer {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 10px 4px 0px 4px;
+}
+
+.questionNumber {
+    width: 10%;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+    text-align: left
+}
+
+.num {
+    font-size: 10pt;
+    width: 100%;
+}
+
+.questionInput {
+    width: 100%;
+    border:none;
+    text-align: right;
+    font-weight: bold;
+}
+
+.questionInput:focus {
+    border: none;
+    background: lightgray;
+}
+.remainder:focus {
+    border: none;
+    background: lightgray;
+    
+}
+
+.ul {
+    border-bottom: 1px solid black;
+}
+
+.qn {
+    width: 100%;
+}
+
+.align {
+    text-align: right;
+    width: 90%;
+}
+
+.top{
+    width: 100%;
+    text-align: right;
+}
+.remainder {
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+    border: none;
+    margin: 0px;
+}

@@ -1,0 +1,22 @@
+.navContainer {
+    background: gray;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.navLink {
+    font-weight: bold;
+    padding: 20px;
+    list-style: none;
+}
+
+.navLink:hover {
+    background: darkslategray;
+    cursor: pointer;
+}
